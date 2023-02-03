@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+</head>
+<body>
+    <h1>User Registration</h1>
+    <form action="reg.js">
+    <table>
+        <tr>
+            <td><label for="name" >Full Name</label></td>
+            <td><input type="text" required id="name" autofocus></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" id="email" required ></td>
+        </tr>
+        <tr>
+            <td><label for="tell">Phone No:</label></td>
+            <td><input type="tel" required id="tell"></td>
+        </tr>
+        <tr>
+            <td><label for="dob">Date Of Birth:</label></td>
+            <td><input type="date" required id="dob"></td>
+        </tr>
+        <tr>
+            <td><label for="gender">Gender</label></td>
+            <td>Male<input type="radio" value="male" name="status">
+            Female<input type="radio" value="female" name="status"></td>
+        </tr>
+        <tr>
+            <td><label for="address">Address</label></td>
+            <td><textarea name="address" id="address" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td><button type="submit">Submit</button></td>
+            <td><button type="reset">Reset</button></td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
