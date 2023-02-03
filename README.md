@@ -1,2 +1,4 @@
 # mini-projects
-user registration, user login
+-user registration
+-user login
+-adding features.
