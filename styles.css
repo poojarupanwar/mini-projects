@@ -1,0 +1,14 @@
+body{
+    background-color: rgba(240, 197, 41, 0.959);
+}
+h1{
+    color: brown;
+}
+button{
+    background-color: rgba(33, 33, 232, 0.87);
+    color: aliceblue;
+    height: 30px;
+    width: 60px;
+    border-radius: 2%;
+    border-color: rgba(239, 239, 248, 0.904);
+}
