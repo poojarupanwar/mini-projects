@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+
 body{
     background-image: linear-gradient(128deg,rgb(242, 107, 130),rgb(61, 58, 213));;
 }
@@ -9,9 +12,11 @@ button{
     background-color: rgba(33, 33, 232, 0.87);
     color: aliceblue;
     height: 30px;
+    font-family: 'Source Code Pro', monospace;
     width: 90px;
+    font-size: medium;
     border-radius: 20px;
-    border-color: rgba(239, 239, 248, 0.904);
+    border:none;
 }
 .center{
     margin: 221px 59px 31px 477px;
