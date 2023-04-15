@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Merriweather:wght@300&family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(193, 50, 150);
+    color: aliceblue;
+    height: 50px;
+    width: 1540px;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    margin: 0;
+    font-family: 'Itim', cursive;
+
+}
+
+nav ul{
+    list-style-type:none;
+    margin:5px 634px;
+}
+.gameContainer{
+    background-color: yellow;
+    display: flex;
+    margin: auto;
+}
