@@ -4,4 +4,4 @@
 1.Calculator project.
 2.User registration.
 3.Tic-Tac-Toe Game.
-![Example Image](tiktactoe.png)
+![Example Image](TikTacToe.png)
