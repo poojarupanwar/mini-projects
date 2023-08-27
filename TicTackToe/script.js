@@ -13,7 +13,21 @@ const changeTurn=()=>{
 const checkWin=()=>{
 
 }
+ 
+///Game logic start
+let boxes=document.getElementsByClassName("box")
 
-///Main logic start
+Array.from(boxes).forEach(e=>{
+    let boxtext=element.querySelector('.boxtext')
+    element.addEventListener('click',()=>{
+        if(boxtext.innerText==" "){
+            boxtext.innerText="X";
+            changeTurn();
+            audioTurn.play()
+            checkWin()
+            document.getElementsByClassName("turn")[0].innerText="turn for"+ turn;
+        }
+    })
 
+})
  
